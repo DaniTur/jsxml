@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questions>
+
+	<question>
+		<type>text</type>
+		<text>¿Cómo se llama el objecto con mayor Daño de Ataque y Robo de Vida?</text>
+		<answer>Sanguinaria</answer>
+	</question>
+	
+	<question>
+		<type>text</type>
+		<text>¿Cuál es el objeto que da más armadura y maná?</text>
+		<answer>Corazón de hielo</answer>
+	</question>
+	
+	<question>
+		<type>select</type>
+		<text>Un lleó mort de fam, qué menja?</text>
+		<option>Carn</option>
+		<option>Peix</option> 
+		<option>Res, està mort</option>
+		<answer>2</answer> <!-- SelectedIndex = 0, 1 ó 2 , 2 vol dir la tercera opciói -->
+	</question>
+	
+	<question>
+		<type>select</type>
+		<text>Un lleó mort de fam, qué menja?</text>
+		<option>Carn</option>
+		<option>Peix</option> 
+		<option>Res, està mort</option>
+		<answer>2</answer> <!-- SelectedIndex = 0, 1 ó 2 , 2 vol dir la tercera opciói -->
+	</question>
+	
+	<question>
+		<type>multiple</type>
+		<text>Marca els nombres senars?</text>
+		<option>1</option>
+		<option>2</option> 
+		<option>3</option> 
+		<option>4</option>
+		<answer>1</answer>
+		<answer>3</answer>
+	</question>
+	
+	<question>
+		<type>multiple</type>
+		<text>Marca els nombres senars?</text>
+		<option>1</option>
+		<option>2</option> 
+		<option>3</option> 
+		<option>4</option>
+		<answer>1</answer>
+		<answer>3</answer>
+	</question>
+	
+	<question>
+		<type>checkbox</type>
+		<text>Enunciado</text>
+		<option>rojo</option>
+		<option>azul</option> 
+		<option>verde</option>
+		<answer>3</answer>
+	</question>
+	
+	<question>
+		<type>checkbox</type>
+		<text>Enunciado</text>
+		<option>rojo</option>
+		<option>azul</option> 
+		<option>verde</option>
+		<answer>3</answer>
+	</question>
+	
+	<question>
+		<type>radio</type>
+		<text>Enunciado</text>
+		<option>rojo</option>
+		<option>azul</option> 
+		<option>verde</option>
+		<answer>2</answer>
+	</question>
+	
+	<question>
+		<type>radio</type>
+		<text>Enunciado lalala</text>
+		<option>rojo</option>
+		<option>azul</option> 
+		<option>verde</option>
+		<answer>2</answer>
+	</question>	
+</questions>
