@@ -2,20 +2,20 @@
 <questions>
 
 	<question>
-		<type>text</type>
-		<text>¿Cómo se llama el objecto con mayor Daño de Ataque y Robo de Vida?</text>
+		<type>title</type>
+		<title>¿Cómo se llama el objecto con mayor Daño de Ataque y Robo de Vida?</title>
 		<answer>Sanguinaria</answer>
 	</question>
 	
 	<question>
-		<type>text</type>
-		<text>¿Cuál es el objeto que da más armadura y maná?</text>
+		<type>title</type>
+		<title>¿Cuál es el objeto que da más armadura y maná?</title>
 		<answer>Corazón de hielo</answer>
 	</question>
 	
 	<question>
 		<type>select</type>
-		<text>Un lleó mort de fam, qué menja?</text>
+		<title>Un lleó mort de fam, qué menja?</title>
 		<option>Carn</option>
 		<option>Peix</option> 
 		<option>Res, està mort</option>
@@ -24,7 +24,7 @@
 	
 	<question>
 		<type>select</type>
-		<text>Un lleó mort de fam, qué menja?</text>
+		<title>Un lleó mort de fam, qué menja?</title>
 		<option>Carn</option>
 		<option>Peix</option> 
 		<option>Res, està mort</option>
@@ -33,7 +33,7 @@
 	
 	<question>
 		<type>multiple</type>
-		<text>Marca els nombres senars?</text>
+		<title>Marca els nombres senars?</title>
 		<option>1</option>
 		<option>2</option> 
 		<option>3</option> 
@@ -44,7 +44,7 @@
 	
 	<question>
 		<type>multiple</type>
-		<text>Marca els nombres senars?</text>
+		<title>Marca els nombres senars?</title>
 		<option>1</option>
 		<option>2</option> 
 		<option>3</option> 
@@ -55,7 +55,7 @@
 	
 	<question>
 		<type>checkbox</type>
-		<text>Enunciado</text>
+		<title>Enunciado</title>
 		<option>rojo</option>
 		<option>azul</option> 
 		<option>verde</option>
@@ -64,7 +64,7 @@
 	
 	<question>
 		<type>checkbox</type>
-		<text>Enunciado</text>
+		<title>Enunciado</title>
 		<option>rojo</option>
 		<option>azul</option> 
 		<option>verde</option>
@@ -73,7 +73,7 @@
 	
 	<question>
 		<type>radio</type>
-		<text>Enunciado</text>
+		<title>Enunciado</title>
 		<option>rojo</option>
 		<option>azul</option> 
 		<option>verde</option>
@@ -82,7 +82,7 @@
 	
 	<question>
 		<type>radio</type>
-		<text>Enunciado lalala</text>
+		<title>Enunciado lalala</title>
 		<option>rojo</option>
 		<option>azul</option> 
 		<option>verde</option>
