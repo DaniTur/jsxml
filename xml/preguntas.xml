@@ -34,10 +34,10 @@
 	<question>
 		<type>multiple</type>
 		<title>¿Qué significa el concepto "Roaming"?</title>
-		<option>Siendo un "laner", el hecho de pushear la oleada de minions para ayudar al equipo</option>
-		<option>Siendo un "laner", el hecho de pushear la oleada de minions para ir a base a comprar</option> 
-		<option>Siendo un "laner", el hecho de pushear la oleada de minions para ayudar al "jungler"</option> 
-		<option>Siendo "jungler", limpiar los campamentos de tu jungla para ir a invadir la jungla del rival</option>
+		<option>Pushear la oleada de minions para ayudar al equipo</option>
+		<option>Pushear la oleada de minions para ir a base a comprar</option> 
+		<option>Pushear la oleada de minions para ayudar al "jungler"</option> 
+		<option>Limpiar los campamentos de tu jungla para ir a invadir la jungla del rival</option>
 		<answer>1</answer>
 		<answer>3</answer>
 	</question>
