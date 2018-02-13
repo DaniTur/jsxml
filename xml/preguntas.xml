@@ -34,10 +34,10 @@
 	<question>
 		<type>multiple</type>
 		<title>¿Qué significa el concepto "Roaming"?</title>
-		<option>Pushear la oleada de minions para ayudar al equipo</option>
+		<option>Pushear la oleada para ayudar al equipo</option>
 		<option>Pushear la oleada de minions para ir a base a comprar</option> 
 		<option>Pushear la oleada de minions para ayudar al "jungler"</option> 
-		<option>Limpiar los campamentos de tu jungla para ir a invadir la jungla del rival</option>
+		<option>Limpiar campamentos de tu jungla para invadir la jungla rival</option>
 		<answer>1</answer>
 		<answer>3</answer>
 	</question>
@@ -47,8 +47,8 @@
 		<title>¿Cuál es el error más típico de las personas en divisones más bajas?</title>
 		<option>Normalmente no saben que objetos basicos comprar</option>
 		<option>No saben qué personajes escoger para ganar</option> 
-		<option>Este tipo de personas no tienen en cuenta el resto del equipo</option> 
-		<option>Este tipo de personas no ponen mucha atención en matar minions para conseguir oro</option>
+		<option>No tienen en cuenta el resto del equipo en sus acciones</option> 
+		<option>No ponen mucha atención en matar minions para conseguir oro</option>
 		<answer>3</answer>
 		<answer>4</answer>
 	</question>
