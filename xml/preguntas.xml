@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE questions SYSTEM "preguntas.dtd">
-<questions>
+
+<questions  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="questions.xsd">
 
 	<question>
-		<type>title</type>
+		<type>text</type>
 		<title>¿Cómo se llama el objecto con mayor Daño de Ataque y Robo de Vida?</title>
 		<answer>Sanguinaria</answer>
 	</question>
 	
 	<question>
-		<type>title</type>
+		<type>text</type>
 		<title>¿Cuál es el objeto que da más armadura y maná?</title>
 		<answer>Corazón de hielo</answer>
 	</question>

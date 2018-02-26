@@ -82,7 +82,7 @@ function gestionarXml(dadesXml){
 	//checkbox1
 	var opcionesCheckbox5 = [];
 	var nopt5 = xmlDoc.getElementsByTagName("question")[6].getElementsByTagName("option").length;
-	var checkboxContainer1=document.getElementsByTagName('form')[6];
+	var checkboxContainer1=document.getElementsByTagName('form')[0].getElementsByClassName('pregunta')[6];
 	for (i = 0; i < nopt5; i++) { 
 		opcionesCheckbox5[i]=xmlDoc.getElementsByTagName("question")[6].getElementsByTagName("option")[i].innerHTML;
 		    var input = document.createElement("input");
@@ -104,7 +104,7 @@ function gestionarXml(dadesXml){
 	//checkbox2
 	var opcionesCheckbox6 = [];
 	var nopt6 = xmlDoc.getElementsByTagName("question")[7].getElementsByTagName("option").length;
-	var checkboxContainer2=document.getElementsByTagName('form')[7];
+	var checkboxContainer2=document.getElementsByTagName('form')[0].getElementsByClassName('pregunta')[7];
 	for (i = 0; i < nopt6; i++) { 
 		opcionesCheckbox6[i]=xmlDoc.getElementsByTagName("question")[7].getElementsByTagName("option")[i].innerHTML;
 		    var input = document.createElement("input");
@@ -126,7 +126,7 @@ function gestionarXml(dadesXml){
 	//radio1
 	var opcionesRadio6 = [];
 	var nopt7 = xmlDoc.getElementsByTagName("question")[8].getElementsByTagName("option").length;
-	var radioContainer1=document.getElementsByTagName('form')[8];
+	var radioContainer1=document.getElementsByTagName('form')[0].getElementsByClassName('pregunta')[8];
 	for (i = 0; i < nopt7; i++) { 
 		opcionesRadio6[i]=xmlDoc.getElementsByTagName("question")[8].getElementsByTagName("option")[i].innerHTML;
 		    var input = document.createElement("input");
@@ -149,7 +149,7 @@ function gestionarXml(dadesXml){
 	//radio2
 	var opcionesRadio7 = [];
 	var nopt8 = xmlDoc.getElementsByTagName("question")[9].getElementsByTagName("option").length;
-	var radioContainer2=document.getElementsByTagName('form')[9];
+	var radioContainer2=document.getElementsByTagName('form')[0].getElementsByClassName('pregunta')[9];
 	for (i = 0; i < nopt8; i++) { 
 		opcionesRadio7[i]=xmlDoc.getElementsByTagName("question")[9].getElementsByTagName("option")[i].innerHTML;
 		    var input = document.createElement("input");
