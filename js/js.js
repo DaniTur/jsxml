@@ -258,7 +258,7 @@ function gestionarXml(dadesXml){
 	  var sel = formElement.elements[2];
       var respuestaSelect = xmlDoc.getElementsByTagName("answer")[2].innerHTML;
 	  if (sel.selectedIndex==respuestaSelect) {
-	   darRespuestaHtml("P3: Correcta");
+	   darRespuestaHtml("P3: Correcto");
 	   nota +=1;
 	  }
 	  else darRespuestaHtml("P3: Incorrecto");
@@ -266,7 +266,7 @@ function gestionarXml(dadesXml){
 	  var sel2 = formElement.elements[3];
       var respuestaSelect2 = xmlDoc.getElementsByTagName("answer")[3].innerHTML;
 	  if (sel2.selectedIndex==respuestaSelect2) {
-	   darRespuestaHtml("P4: Correcta");
+	   darRespuestaHtml("P4: Correcto");
 	   nota +=1;
 	  }
 	  else darRespuestaHtml("P4: Incorrecta")
