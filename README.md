@@ -31,4 +31,4 @@
 * Por último revisé que todos los documentos validaran correctamente e hice la versión comprimida que será la versión que se llevaría a ejecución para así ganar una mayor velocidad al cargar la página web. La versión comprimida está situada en un _branch_ para que no interfiera con la otra.
 
 ### Bibliografía:
-Navegador de Internet (moodle, w3schools, stackoverflow, blogs, etc)
+Navegador de Internet (moodle, stackoverflow, codepen, etc)
