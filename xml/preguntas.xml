@@ -25,7 +25,7 @@
 	
 	<question>
 		<type>select</type>
-		<title>¿A qué campeón pertenece la habilidad Pozo Sangriento?</title>
+		<title>¿A que campeón pertenece la habilidad Pozo Sangriento?</title>
 		<option>Aatrox</option>
 		<option>Vladimir</option> 
 		<option>Darius</option>
@@ -48,8 +48,8 @@
 		<title>¿Cuál es el error más típico de las personas en divisones más bajas?</title>
 		<option>Normalmente no saben que objetos basicos comprar</option>
 		<option>No saben qué personajes escoger para ganar</option> 
-		<option>No tienen en cuenta el resto del equipo</option> 
-		<option>No ponen mucha atención en matar minions para conseguir oro</option>
+		<option>Este tipo de personas no tienen en cuenta el resto del equipo</option> 
+		<option>Este tipo de personas no ponen mucha atención en matar minions para conseguir oro</option>
 		<answer>3</answer>
 		<answer>4</answer>
 	</question>
@@ -65,9 +65,9 @@
 	
 	<question>
 		<type>checkbox</type>
-		<title>¿Para qué sirve un guardián de visión?(una o más opciones)</title>
+		<title>¿Para que sirve un guardian de visión?(una o más opciones)</title>
 		<option>Te proporciona visión del enemigo si pasa cerca</option>
-		<option>Sirven para que tu equipo tenga mejor visión de donde están los enemigos</option> 
+		<option>Sirven para que tu equipo tenga mejor visibilidad de donde están los enemigos</option> 
 		<option>Proporcionan una mejor visibilidad del mapa</option>
 		<answer>2</answer>
 		<answer>3</answer>
@@ -77,7 +77,7 @@
 		<type>radio</type>
 		<title>¿Cuál es la línia más popular del juego?</title>
 		<option>Top</option>
-		<option>Mid</option> 
+		<option>Medio</option> 
 		<option>Bot</option>
 		<answer>2</answer>
 	</question>

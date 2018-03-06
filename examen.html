@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 	<head>
 		<title>Ponte a prueba LoL!</title>
@@ -14,13 +15,13 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" media="screen and (min-width: 721px)" href="css/estilos.css">
 		<link rel="stylesheet" media="screen and (max-width: 720px)" href="css/estilos_m.css">
-		
+
 	</head>
-	
+
 	<body>
 		<header>
 		  <div class="header">
-			<div class="logo"<a href="index.html"><img src="img/logo.png" alt="logo"></a></div>
+			<div class="logo"><a href="index.html"><img src="img/logo.png" alt="logo"></a></div>
 			<nav>
 			  <ul>
 				<li><a href="index.html">Inicio</a></li>
@@ -32,80 +33,82 @@
 
 		<div class="content">
 			<div class="titulo"><p>Examen para pros</p></div>
-			<form>	
+			<form id="myform">
 				<!--Input Text-->
 				<div class="pregunta">
 					<div class="enunciado">1. <span id="p1-e"></span></div>
-					<input class="inputbox" id ="p1-r1" type="text" value=""></input>
+					<input class="inputbox" id ="p1-r1" type="text" value=""/>
 				</div>
 				<hr>
 				<div class="pregunta">
 					<div class="enunciado">2. <span id="p2-e"></span></div>
-					<input class="inputbox" id ="p2-r1" type="text" value=""></input>
+					<input class="inputbox" id ="p2-r1" type="text" value=""/>
 				</div>
 				<hr>
 				<!--Select-->
 				<div class="pregunta">
 					<div class="enunciado">3. <span id="p3-e"></span></div>
 					<select class="selector" id="selector2">
-						<option value="0" selected><span id="p3-r1">Selecciona una opción</span></option>
+						<option value="0" selected>Selecciona una opción</option>
 					</select>
 				</div>
 				<hr>
 				<div class="pregunta">
 					<div class="enunciado">4. <span id="p4-e"></span></div>
 					<select class="selector" id="selector1">
-						<option value="0" selected><span id="p4-r1">Selecciona una opción</span></option>
+						<option value="0" selected>Selecciona una opción</option>
 					</select>
 				</div>
 				<hr>
 				<!--Select Multiple-->
 				<div class="pregunta">
 					<div class="enunciado">5. <span id="p5-e"></span></div>
-					
+
 						<select class="selectorm" id="mySel" multiple>
-							<option class="opciones" value="0" selected><span id="p5-r1">Selecciona una o más opciones</span></option>
-						</select>					
-					
+							<option class="opciones" value="0" selected>Selecciona una o más opciones</option>
+						</select>
+
 				</div>
 				<hr>
 				<div class="pregunta">
 					<div class="enunciado">6. <span id="p6-e"></span></div>
-					
-						<select class="selectorm" id="mySel" multiple>
-							<option class="opciones" value="0" selected><span id="p6-r1">Selecciona una o más opciones</span></option>
 
-						</select>					
-					
+						<select class="selectorm" id="mySel2" multiple>
+							<option class="opciones" value="0" selected>Selecciona una o más opciones</option>
+						</select>
+
 				</div>
 				<hr>
 				<!--Checkbox-->
 				<div class="pregunta">
 					<div class="enunciado">7. <span id="p7-e"></span></div>
-					
-					
-					
+
+
+
 				</div>
 				<hr>
 				<div class="pregunta">
 					<div class="enunciado">8. <span id="p8-e"></span></div>
-					
+
 				</div>
 				<hr>
 				<!--Radio-->
 				<div class="pregunta">
 					<div class="enunciado">9. <span id="p9-e"></span></div>
-						
+
 				</div>
 				<hr>
 				<div class="pregunta">
 					<div class="enunciado">10. <span id="p10-e"></span></div>
 				</div>
-				
-				<input id="corregir" type="submit" value="Corregir"></input>
+
+				<input id="corregir" type="submit" value="Corregir"/>
 			</form>
+			<div id="resultadosDiv">
+			</div>
 		</div>
 
+
+		<script src="js/js.js"></script>
 	</body>
-	<script src="js/js.js"></script>
-<html>
+</html>
