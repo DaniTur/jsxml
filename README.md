@@ -1,3 +1,3 @@
 # jsxml
-- link Rawgit del proyecto: https://rawgit.com/DaniTur/jsxml/master/index.html
+- link Rawgit del proyecto comprimido: https://rawgit.com/DaniTur/jsxml/jsxml_min/index.min.html
 - link xml de preguntas: https://rawgit.com/DaniTur/jsxml/master/xml/preguntas.xml
